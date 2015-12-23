@@ -1,5 +1,17 @@
+@font-face {
+    font-family: 'silombold';
+    src: url('assets/silom/silombol-webfont.eot');
+    src: url('assets/silom/silombol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/silom/silombol-webfont.woff2') format('woff2'),
+         url('assets/silom/silombol-webfont.woff') format('woff'),
+         url('assets/silom/silombol-webfont.ttf') format('truetype'),
+         url('assets/silom/silombol-webfont.svg#silombold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  font-family: monospace;
+  font-family: "silombold", monospace;
   background-color: #0F2234;
 }
 
@@ -44,5 +56,6 @@ p {
 
 .subline {
   margin-top: 30px;
-  font-size: 24pt;
+  font-size: 20pt;
+  letter-spacing: 5px;
 }
