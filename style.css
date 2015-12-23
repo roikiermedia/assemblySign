@@ -13,6 +13,7 @@
 body {
   font-family: "silombold", monospace;
   background-color: #0F2234;
+  overflow: hidden;
 }
 
 p {
@@ -20,11 +21,18 @@ p {
 }
 
 .particle {
-  width: 99vw;
-  height: 97vh;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
   z-index: -10;
   justify-content: center;
+}
+
+.earth {
+  width: 100vw;
+  height: auto;
+  margin-top: -57.5px;
+  z-index: -5;
 }
 
 .chaosFl {
@@ -33,6 +41,7 @@ p {
   align-items: center;
   width: auto;
   height: 90vh;
+  z-index: 0;
 }
 
 .logocontainer {
@@ -58,4 +67,10 @@ p {
   margin-top: 30px;
   font-size: 20pt;
   letter-spacing: 5px;
+}
+
+@media (max-width: 760px) {
+  .earth {
+    visibility: hidden;
+  }
 }
