@@ -1,0 +1,48 @@
+body {
+  font-family: monospace;
+  background-color: #0F2234;
+}
+
+p {
+  color: #fff;
+}
+
+.particle {
+  width: 99vw;
+  height: 97vh;
+  position: absolute;
+  z-index: -10;
+  justify-content: center;
+}
+
+.chaosFl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 90vh;
+}
+
+.logocontainer {
+  width: 1200px;
+  height: auto;
+  margin-top: 50px;
+}
+
+.chaosFlLogo {
+  width: 100%;
+  height: auto;
+}
+
+.sublinecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.subline {
+  margin-top: 30px;
+  font-size: 24pt;
+}
