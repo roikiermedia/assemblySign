@@ -33,6 +33,7 @@ p {
   height: auto;
   margin-top: -57.5px;
   z-index: -5;
+  position: absolute;
 }
 
 .chaosFl {
