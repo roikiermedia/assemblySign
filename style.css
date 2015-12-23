@@ -65,13 +65,12 @@ p {
 }
 
 .subline {
-  margin-top: 100px;
   font-size: 20pt;
   letter-spacing: 5px;
 }
 
 .message {
-  font-size: 86pt;
+  font-size: 92pt;
   letter-spacing: 5px;
   text-align: center;
   margin-top: -40vh;
