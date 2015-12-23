@@ -4,5 +4,5 @@
 A digital sign for the Chaostreff Flensburg Assembly @ #32c3.
 
 Options in script.js:  
-`var play = true` set to false to only display logo  
+`var play = false` set to true to cycle through messages  
 `var waitTime = 20000` set to animation timeout in ms

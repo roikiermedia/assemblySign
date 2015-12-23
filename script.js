@@ -1,5 +1,5 @@
-var play = true;
 var waitTime = 20000; //time to cycle logo in ms
+var play = false;
 
 function showLogo() {
   $(".chaosFlLogo").removeClass("hidden");
